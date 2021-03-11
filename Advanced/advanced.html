@@ -1,0 +1,49 @@
+<!-- Advanced
+Book List
+
+Create an external JSON file that will contain the data( e.g. 
+  `{'title': 'Javascript for Dummies',
+   'author': 'Dummy Dumb Dumb',
+   'read': 'false'
+  }`
+Iterate through the array of books. For each book, create a <p> element with the book title and author and append it to the page.
+Each book should have an image cover.
+Change the style of the book depending on whether you have read it or not. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced</title>
+</head>
+<body>
+<h1>Books List</h1>
+
+<div id='books'></div>
+
+
+    
+    <script src='advanced.json'></script>
+    <script>
+       //convert json to object
+      let booksObj=JSON.parse(books);
+      
+      let booksDiv=document.getElementById('books');
+
+      for(let i=0; i<booksObj.length;i++ ){
+        if (booksObj[i].read === 'true') {
+          booksDiv.innerHTML += `<p  style="background-color: green"> "${booksObj[i].title}" By ${booksObj[i].author}  </p>  <img src='${booksObj[i].image}'>`
+        } else {
+          booksDiv.innerHTML += `<p > "${booksObj[i].title}" By ${booksObj[i].author}  </p>  <img src='${booksObj[i].image}'>`
+
+        }
+
+      }
+
+     
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+let books=`[
+    {"title": "Javascript for Dummies",
+        "author": "Dummy Dumb Dumb",
+        "read": "false",
+        "image":"pexels-polina-zimmerman-3747279.jpg"
+    },
+    {"title": "HTML for Dummies",
+        "author": "Jimmy Dore",
+        "read": "true",
+        "image":"pexels-ann-h-1765033.jpg"
+    },
+    {"title": "Computer Science for Dummies",
+        "author": "George Clooney",
+        "read": "false",
+        "image":"pexels-suzy-hazelwood-1301585.jpg"
+    },
+    {"title": "Graphics for Dummies",
+        "author": "Abas",
+        "read": "true",
+        "image":"pexels-thought-catalog-904620.jpg"
+    },
+    {"title": "CSS for Dummies",
+        "author": "Alexandra",
+        "read": "false",
+        "image":"pexels-thought-catalog-2228586.jpg"
+       }
+]`
