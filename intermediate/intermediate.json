@@ -1,0 +1,92 @@
+let employees =  `[
+    {
+
+    "userId": "298939448171",
+    "jobTitleName" : "Developer",
+    "firstName": "Patrik",
+    "lastName": "Jonathan",
+    "phoneNumber" : "408-1234567",
+    "emailAddress": "patrik.k.jonathan@gmail.com"
+
+}, {
+
+    "userId": "298239648772" ,
+    "jobTitleName": "Analyst",
+    "firstName": "Tom",
+    "lastName": "Irani",
+    "phoneNumber" : "408-1111111",
+    "emailAddress": "tomrirani@gmail.com"
+
+}, {
+
+    "userId": "258337421173" ,
+    "jobTitleName": "Program Directory",
+    "firstName": "Tom",
+    "lastName": "Hanks",
+    "phoneNumber" : "408-2222222",
+    "emailAddress": "tomhanks@gmail.com"
+
+}, {
+
+    "userId": "258337421174" ,
+    "jobTitleName": "Director",
+    "firstName": "Tommy",
+    "lastName": "Vank",
+    "phoneNumber" : "408-2222245",
+    "emailAddress": "tommyvank@gmail.com"
+
+}, {
+
+    "userId": "2583374211712" ,
+    "jobTitleName": "Cook",
+    "firstName": "Sam",
+    "lastName": "Faris",
+    "phoneNumber" : "408-2234222",
+    "emailAddress": "samfaris@gmail.com"
+
+}, {
+
+    "userId": "29893345817",
+    "jobTitleName" : "Front End Developer",
+    "firstName": "Leo",
+    "lastName": "Harris",
+    "phoneNumber" : "408-12345673",
+    "emailAddress": "leoharris@gmail.com"
+
+}, {
+
+    "userId": "2982393677" ,
+    "jobTitleName": "Doctor",
+    "firstName": "Frank",
+    "lastName": "Ira",
+    "phoneNumber" : "408-1113411",
+    "emailAddress": "frankira@gmail.com"
+
+}, {
+
+    "userId": "2583374227" ,
+    "jobTitleName": "Trainer",
+    "firstName": "Marc",
+    "lastName": "Hanks",
+    "phoneNumber" : "408-2222267",
+    "emailAddress": "marchanks@gmail.com"
+
+}, {
+
+    "userId": "2583374211789" ,
+    "jobTitleName": "Pilot",
+    "firstName": "Teo",
+    "lastName": "Ree",
+    "phoneNumber" : "408-222224422",
+    "emailAddress": "teoree@gmail.com"
+
+}, {
+
+    "userId": "25833742117" ,
+    "jobTitleName": "Teacher",
+    "firstName": "Ron",
+    "lastName": "Domingo",
+    "phoneNumber" : "408-2222298",
+    "emailAddress": "rondomingo@gmail.com"
+
+}]`
