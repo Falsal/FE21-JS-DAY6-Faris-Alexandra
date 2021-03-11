@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DAY 6</title>
+</head>
+<body>
+<div class='divplace'></div>
+<div class='divplace'></div>
+
+
+
+    <script>
+        var sandwiches = `{ "sandwich": "hamburger", "calories": "260" }`;
+        var fries = `{ "fries_size": "Large French Fries", "calories": "570" }`;
+
+        // turn variables into an object we can work with
+        let sandW=JSON.parse(sandwiches)
+        let friesW=JSON.parse(fries)
+
+    
+
+        let textToPrint=` My favorite sandwich is a ${sandW.sandwich} which has approximately  ${sandW.calories} calories, along with it I enjoy eating ${friesW.fries_size} which have about ${friesW.calories} calories.`
+
+        console.log(textToPrint)
+
+        // Put out the textToPrint into the broweser
+
+        let textSpace=document.getElementsByClassName('divplace')
+        textSpace[0].innerHTML +=textToPrint;
+    </script>
+    
+</body>
+</html>
