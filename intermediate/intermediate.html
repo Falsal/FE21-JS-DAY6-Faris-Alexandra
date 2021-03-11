@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table class="table">
+        <div>
+            <tr>
+                <th>ID</th>
+                <th>Job</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Phone Number</th>
+                <th>E-Mail</th>
+            </tr>
+        </div>
+    </table>
+
+    <script src="intermediate.json"></script>
+    <script>
+        //convert json to object
+        let emplObj = JSON.parse(employees);
+        console.log(emplObj);
+        
+        let rowPlace = document.getElementsByClassName("table");
+
+        const getData= function() {
+            
+            for(let i=0; i < emplObj.length; i++){    
+                var result = "";
+                result += `<tr><td>${emplObj[i].userId}</td>`
+                result += `<td>${emplObj[i].jobTitleName}</td>`
+                result += `<td>${emplObj[i].firstName}</td>`
+                result += `<td>${emplObj[i].lastName}</td>`
+                result += `<td>${emplObj[i].phoneNumber}</td>`
+                result += `<td>${emplObj[i].emailAddress}</td></tr>`;
+                rowPlace[0].innerHTML += result;
+                }
+            } 
+
+         getData()
+
+
+
+    </script>
+</body>
+</html>
